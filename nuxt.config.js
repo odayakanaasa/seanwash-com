@@ -7,7 +7,12 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Full Stack Developer specializing in Elixir, Ruby on Rails, JavaScript, and CSS.' }
+      { hid: 'description', name: 'description', content: 'Full Stack Developer specializing in Elixir, Ruby on Rails, JavaScript, and CSS.' },
+      { property: 'og:description', content: 'Full Stack Developer specializing in Elixir, Ruby on Rails, JavaScript, and CSS.'},
+      { name: 'twitter:card', content: 'summary' },
+      { name: 'twitter:site', content: '@seanwashbot' },
+      { name: 'twitter:creator', content: '@seanwashbot' },
+      { name: 'google-site-verification', content: 'uJo6hbC_CDYc6ZQ0vrF21fXIuDXpbJErVBs88jZZHew' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
