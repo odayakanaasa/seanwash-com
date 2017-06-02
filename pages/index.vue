@@ -1,5 +1,5 @@
 <template>
-  <div class="mw7 ph4 center mt4">
+  <div class="mw7 ph4 center mv4">
     <header>
       <span class="pr2"><icon-wifi></icon-wifi></span>
       <span class="pr2"><icon-headphones></icon-headphones></span>
