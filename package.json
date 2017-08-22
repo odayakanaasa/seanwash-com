@@ -6,6 +6,7 @@
   "private": true,
   "dependencies": {
     "@nuxtjs/google-analytics": "^1.0.0",
+    "@nuxtjs/meta": "^1.3.0",
     "dotenv": "^4.0.0",
     "nuxt": "latest",
     "tachyons": "^4.7.4"

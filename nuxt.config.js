@@ -20,7 +20,7 @@ module.exports = {
   },
   css: ['tachyons/css/tachyons.css'],
   loading: { color: '#000' },
-  modules: [['@nuxtjs/google-analytics', { ua: process.env.GA_ID }]],
+  modules: ['@nuxtjs/meta', ['@nuxtjs/google-analytics', { ua: process.env.GA_ID }]],
   build: {
     extend (config, ctx) {
       if (ctx.isClient) {
