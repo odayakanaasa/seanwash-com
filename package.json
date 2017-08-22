@@ -5,6 +5,8 @@
   "author": "Sean Washington <hello@seanwash.com>",
   "private": true,
   "dependencies": {
+    "@nuxtjs/google-analytics": "^1.0.0",
+    "dotenv": "^4.0.0",
     "nuxt": "latest",
     "tachyons": "^4.7.4"
   },
